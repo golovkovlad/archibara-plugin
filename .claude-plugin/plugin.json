@@ -1,7 +1,7 @@
 {
   "name": "archibara",
   "displayName": "Archibara",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Use your Archibara C4 architecture while you code: read the model as context, review it against the code and keep it in sync.",
   "author": {
     "name": "Archibara",
@@ -15,13 +15,5 @@
   "documentationUrl": "https://archibara.com/docs/mcp-and-ai/",
   "supportUrl": "https://archibara.com/contact/",
   "privacyPolicyUrl": "https://archibara.com/privacy/",
-  "termsOfServiceUrl": "https://archibara.com/terms/",
-  "userConfig": {
-    "server_url": {
-      "type": "string",
-      "title": "Archibara server",
-      "description": "Address of your Archibara server, without a trailing slash. Keep the default for app.archibara.com; change it only for a self-hosted server.",
-      "default": "https://app.archibara.com"
-    }
-  }
+  "termsOfServiceUrl": "https://archibara.com/terms/"
 }

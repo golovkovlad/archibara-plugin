@@ -2,7 +2,7 @@
   "mcpServers": {
     "archibara": {
       "type": "http",
-      "url": "${user_config.server_url}/mcp",
+      "url": "https://app.archibara.com/mcp",
       "oauth": {
         "scopes": "mcp:read mcp:write"
       }

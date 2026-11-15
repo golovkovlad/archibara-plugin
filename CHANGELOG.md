@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.1
+
+- Connect Claude Code to the fixed address `https://app.archibara.com/mcp`, the same server the
+  Archibara connector uses, so the Claude directory can read the plugin's server. The **Archibara
+  server** setting is gone: a self-hosted server is now added as its own MCP server, as the
+  README describes.
+
 ## 0.1.0
 
 - Add the Archibara MCP server with browser sign-in (OAuth with PKCE), asking for read and edit

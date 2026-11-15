@@ -89,9 +89,16 @@ If you work with several Archibara projects, name the project for this repositor
 
 ## Self-hosted servers
 
-**Claude Code.** Set **Archibara server** to your server's address, without a trailing slash,
-for example `https://archibara.example.com`, in `/config`; Claude Code may also ask for it when
-you enable the plugin.
+**Claude Code.** The plugin connects to app.archibara.com. To use your own server, add it as a
+separate MCP server and sign in to it in `/mcp`:
+
+```bash
+claude mcp add --transport http --scope user archibara https://archibara.example.com/mcp
+```
+
+In `/mcp`, disable **plugin:archibara:archibara** so the agent uses only your server. The skills
+work with either server; with your own, Claude Code asks before each Archibara call unless you
+allow its tools.
 
 **Codex.** The plugin connects to app.archibara.com. To use your own server, add a server with
 the same name to `~/.codex/config.toml`; it replaces the plugin's server, and the skills keep
