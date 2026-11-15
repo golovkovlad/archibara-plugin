@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "archibara": {
+      "type": "http",
+      "url": "https://app.archibara.com/mcp",
+      "scopes": ["mcp:read", "mcp:write"],
+      "default_tools_approval_mode": "writes"
+    }
+  }
+}

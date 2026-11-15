@@ -1,0 +1,9 @@
+Archibara for Claude Code and Codex
+Copyright (c) 2026 Vladyslav Holovko. All rights reserved.
+
+This plugin is proprietary. No right to copy, modify, distribute, sublicense or sell it is
+granted without the copyright holder's prior written permission, except that you may install and
+use it unmodified with Claude Code or Codex to work with Archibara.
+
+Use of the hosted service at app.archibara.com is governed by its Terms of use:
+https://archibara.com/terms/

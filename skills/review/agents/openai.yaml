@@ -1,0 +1,6 @@
+interface:
+  display_name: "Review architecture"
+  short_description: "Compare the Archibara model with the code"
+  default_prompt: "Use $archibara:review to compare the Archibara model with this repository."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Sync architecture"
+  short_description: "Update the Archibara model from the code after you confirm"
+  default_prompt: "Use $archibara:sync to bring the Archibara model up to date with this branch."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,36 @@
+{
+  "name": "archibara",
+  "version": "0.1.0",
+  "description": "Use your Archibara C4 architecture while you code: read the model as context, review it against the code and keep it in sync.",
+  "author": {
+    "name": "Archibara",
+    "email": "support@archibara.com",
+    "url": "https://archibara.com"
+  },
+  "homepage": "https://archibara.com/docs/mcp-and-ai/",
+  "repository": "https://github.com/golovkovlad/archibara-plugin",
+  "keywords": ["architecture", "c4", "mcp", "diagrams", "documentation"],
+  "skills": "./skills/",
+  "mcpServers": "./.codex-mcp.json",
+  "interface": {
+    "displayName": "Archibara",
+    "shortDescription": "Architecture context from your C4 model",
+    "longDescription": "Bring your team's Archibara C4 model into Codex. Codex answers structure and impact questions from the model and checks them against the code, reviews the model for drift and risks, and updates it from the code after you confirm a validated preview.",
+    "developerName": "Archibara",
+    "category": "Developer Tools",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://archibara.com",
+    "privacyPolicyURL": "https://archibara.com/privacy/",
+    "termsOfServiceURL": "https://archibara.com/terms/",
+    "supportURL": "https://archibara.com/contact/",
+    "defaultPrompt": [
+      "Explain how this repository's services fit together, using Archibara",
+      "Use $archibara:review to compare the Archibara model with this code",
+      "Use $archibara:sync to update the Archibara model from this branch"
+    ],
+    "brandColor": "#315B39",
+    "logo": "./logo.png",
+    "composerIcon": "./logo.png",
+    "screenshots": []
+  }
+}

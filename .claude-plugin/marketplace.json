@@ -1,0 +1,17 @@
+{
+  "name": "archibara",
+  "description": "Archibara plugins for Claude Code and Codex.",
+  "owner": {
+    "name": "Archibara",
+    "email": "support@archibara.com",
+    "url": "https://archibara.com"
+  },
+  "plugins": [
+    {
+      "name": "archibara",
+      "source": "./",
+      "description": "Use your Archibara C4 architecture while you code: read the model as context, review it against the code and keep it in sync.",
+      "category": "development"
+    }
+  ]
+}

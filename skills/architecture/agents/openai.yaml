@@ -1,0 +1,4 @@
+interface:
+  display_name: "Architecture context"
+  short_description: "Answer from the Archibara model, checked against the code"
+  default_prompt: "Use $archibara:architecture to explain how this repository's services fit together."
