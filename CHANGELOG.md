@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.2
+
+- The skills pre-approve only reading, searching and listing files, as the Claude directory
+  requires. Claude Code now asks before each Archibara tool and git command until you allow it;
+  Codex is unchanged.
+
 ## 0.1.1
 
 - Connect Claude Code to the fixed address `https://app.archibara.com/mcp`, the same server the

@@ -80,8 +80,10 @@ If you work with several Archibara projects, name the project for this repositor
   Archibara role and plan limits apply to every call.
 - Claude Code and Codex keep the tokens in their own credential stores. Access tokens last 15
   minutes and refresh tokens rotate.
-- The agent reads freely but asks before any call that changes the model, and sync waits for
-  your confirmation as well.
+- Codex runs read-only Archibara tools without asking and asks before any call that changes the
+  model. Claude Code asks before each Archibara tool and git command until you allow it; you can
+  always allow the read-only ones. Sync also waits for your confirmation before it changes
+  anything.
 - The skills tell the agent to record environment variable names only, never secret values, and
   not to copy credentials or personal data into the model.
 - The plugin adds no hooks, background tasks or telemetry, and uploads no source code. The agent
@@ -97,8 +99,7 @@ claude mcp add --transport http --scope user archibara https://archibara.example
 ```
 
 In `/mcp`, disable **plugin:archibara:archibara** so the agent uses only your server. The skills
-work with either server; with your own, Claude Code asks before each Archibara call unless you
-allow its tools.
+work with either server.
 
 **Codex.** The plugin connects to app.archibara.com. To use your own server, add a server with
 the same name to `~/.codex/config.toml`; it replaces the plugin's server, and the skills keep

@@ -1,7 +1,7 @@
 {
   "name": "archibara",
   "displayName": "Archibara",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Use your Archibara C4 architecture while you code: read the model as context, review it against the code and keep it in sync.",
   "author": {
     "name": "Archibara",

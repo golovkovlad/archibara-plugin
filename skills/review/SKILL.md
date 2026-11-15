@@ -4,17 +4,9 @@ description: Review the Archibara architecture model against this codebase and r
 argument-hint: "[drift | security | scalability | risks | unknowns]"
 disable-model-invocation: true
 allowed-tools:
-  - mcp__plugin_archibara_archibara__workspace_list
-  - mcp__plugin_archibara_archibara__workspace_inspect
-  - mcp__plugin_archibara_archibara__modeling_guide
-  - mcp__plugin_archibara_archibara__model_validate
-  - mcp__plugin_archibara_archibara__explore_dependencies
-  - mcp__plugin_archibara_archibara__view_list
-  - mcp__plugin_archibara_archibara__view_get
-  - mcp__plugin_archibara_archibara__record_list
-  - Bash(git status:*)
-  - Bash(git diff:*)
-  - Bash(git log:*)
+  - Read
+  - Grep
+  - Glob
 ---
 
 # Review the architecture against the code

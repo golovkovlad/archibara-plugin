@@ -4,20 +4,9 @@ description: Update the Archibara architecture model to match this codebase. Map
 argument-hint: "[full | <git range> | <path>]"
 disable-model-invocation: true
 allowed-tools:
-  - mcp__plugin_archibara_archibara__workspace_list
-  - mcp__plugin_archibara_archibara__workspace_inspect
-  - mcp__plugin_archibara_archibara__modeling_guide
-  - mcp__plugin_archibara_archibara__model_get
-  - mcp__plugin_archibara_archibara__model_validate
-  - mcp__plugin_archibara_archibara__model_preview_operations
-  - mcp__plugin_archibara_archibara__view_list
-  - mcp__plugin_archibara_archibara__view_get
-  - mcp__plugin_archibara_archibara__record_list
-  - Bash(git status:*)
-  - Bash(git diff:*)
-  - Bash(git log:*)
-  - Bash(git merge-base:*)
-  - Bash(git rev-parse:*)
+  - Read
+  - Grep
+  - Glob
 ---
 
 # Sync the Archibara model with the code

@@ -3,16 +3,9 @@ name: architecture
 description: Answer questions about this system's architecture from the team's Archibara C4 model, checked against the code. Use when the user asks how the system is structured, which service or container owns something, what depends on a component or what a change would affect; before planning a change that crosses services, data stores or external integrations; and whenever the prompt contains an ArchibaraRef line.
 argument-hint: "[question or ArchibaraRef line]"
 allowed-tools:
-  - mcp__plugin_archibara_archibara__workspace_list
-  - mcp__plugin_archibara_archibara__workspace_get
-  - mcp__plugin_archibara_archibara__workspace_inspect
-  - mcp__plugin_archibara_archibara__reference_resolve
-  - mcp__plugin_archibara_archibara__explore_dependencies
-  - mcp__plugin_archibara_archibara__modeling_guide
-  - mcp__plugin_archibara_archibara__model_get
-  - mcp__plugin_archibara_archibara__view_list
-  - mcp__plugin_archibara_archibara__view_get
-  - mcp__plugin_archibara_archibara__record_list
+  - Read
+  - Grep
+  - Glob
 ---
 
 # Architecture context from Archibara
